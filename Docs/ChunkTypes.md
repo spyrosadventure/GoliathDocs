@@ -65,7 +65,13 @@ UNIMPLEMENTED
 
 ## 17 - Gen_LevelHeader
 
-UNIMPLEMENTED
+    uint32_t uiLevelID; // PAK ID
+    uint16_t uiVMajor;
+    uint8_t uiVMinor;
+    uint8_t uiVBuild;
+    // These two seem to work fine when empty. None of the data below this is actually necessary.
+    char szUserTime[128];
+    char szInfo[128];
 
 ## 18 - Gen_StringTableLibrary
 
@@ -2292,5 +2298,6 @@ UNIMPLEMENTED
 ## 6001 - GeoSub_LODVtxData
 
 UNIMPLEMENTED
+
 
 
