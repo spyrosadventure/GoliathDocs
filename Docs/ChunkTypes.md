@@ -2073,7 +2073,13 @@ UNIMPLEMENTED
 
 ## 5006 - GenSub_ResourceHeader
 
-UNIMPLEMENTED
+    uint32_t uiCRC;
+    uint32_t uiResourceType; 
+    uint32_t uiLanguageMask;
+    uint32_t uiQualityLevel;
+    uint64_t uiDataOffset; // uint32_t on TASM1 and below.
+    uint32_t uiPostLoadDataCRC;
+    std::string zName;
 
 ## 5007 - GenSub_ResourceIncrementalInfo
 
@@ -2286,4 +2292,5 @@ UNIMPLEMENTED
 ## 6001 - GeoSub_LODVtxData
 
 UNIMPLEMENTED
+
 
