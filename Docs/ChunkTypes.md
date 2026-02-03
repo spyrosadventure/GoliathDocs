@@ -2109,7 +2109,8 @@ UNIMPLEMENTED
 
 ## 5012 - GenSub_ResList
 
-UNIMPLEMENTED
+    uint32_t uiResourceType;
+    uint32_t uiResourceCRC;
 
 ## 5013 - GenSub_CubeMap
 
@@ -2298,6 +2299,7 @@ UNIMPLEMENTED
 ## 6001 - GeoSub_LODVtxData
 
 UNIMPLEMENTED
+
 
 
 
